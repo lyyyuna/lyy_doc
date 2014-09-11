@@ -1,0 +1,82 @@
+自己做过的一些好玩的：
+
+一、软
+1. 梯形图解释器（ing...）
+https://github.com/lyyyuna/loucomp
+进行中，完成了解释器的初稿，接下来是GUI部分，还没思路。
+
+2. 智能车仿真软件的解释器（ing...）
+https://github.com/lyyyuna/sim_car
+进行中，已经可以实现通过脚本改变小车行进算法。
+
+3. 微信机器人
+https://github.com/lyyyuna/BAE_weixin
+可以查询豆瓣电影。微信号 lihulab
+现在BAE升级了，估计快不能用了。
+
+4. SCons自动构建
+https://github.com/lyyyuna/avrgcc_scons
+设置好编译器路径后，可以直接生成bin。添加新组件也比较方便。
+不过，我现在开发喜欢用IDE了。
+
+5. ARP 攻击小工具
+https://github.com/lyyyuna/durian_cake/tree/master/tcpip/arp
+利用 pcap 库，构造 arp 数据包发往指定 ip 地址的设备。
+在实验室内同一交换机连接的电脑，可以使用本工具让其不能上网。
+
+6. 校园网监控摄像头扫描
+利用 pcap 库构造 syn 包，扫描校园网内所有ip地址的某个端口。
+使用该方法我一不小心搞到了好多摄像头。
+
+二、软+硬
+1. BLDC无刷直流电子调速器
+https://github.com/lihulab/BLDC_controller
+是作为四轴飞行器的子项目开展的。离商业电子调速器还有很大的距离，有待改进。
+
+2. 微博机器人——实时温度
+http://www.lyyyuna.com/?p=433
+http://weibo.com/u/2664034063
+是看到当时的浙大一个学生做的自动发微博的饮水机想到的。现在新浪改接口了，所以也不能用了。
+
+3. MP3播放器
+http://www.lyyyuna.com/?p=429
+自己从头到尾，从硬件到软件做的播放器。硬件解码，液晶显示，支持SD卡。
+
+4. 心电仪
+http://www.lyyyuna.com/?p=431
+自己设计的心电采集电路，利用仪表放大器差分放大，右腿驱动，50Hz陷波滤波器，三阶低通。
+软件有TCP/IP，CDF97小波滤波。
+http://v.youku.com/v_show/id_XNDg1MTQwMjE2.html
+
+5. 智能车，四轮
+http://v.youku.com/v_show/id_XMjA0NDQ5Mjgw.html
+http://v.youku.com/v_show/id_XNTgwOTU2ODY4.html
+
+6. 智能车，两轮平衡车
+http://v.youku.com/v_show/id_XNTgwNDYwOTk2.html
+http://v.youku.com/v_show/id_XNTMxMzAyNTg0.html
+http://v.youku.com/v_show/id_XNzQ3Mzc5Mjg0.html
+
+7. 电磁吸盘充退磁控制器
+
+8. 自平衡磁悬浮
+http://v.youku.com/v_show/id_XNjc3NjM4NDI0.html
+首先使用永磁体产生基本的升力，然后放置四个电磁铁在四个方向作为升力微调。霍尔传感器作为磁场检测，当悬浮物倾斜，磁场改变，控制器改变电磁铁磁力恢复悬浮物平衡。
+
+9. 重力感应鼠标
+https://github.com/lyyyuna/usb_lyy
+读取加速度传感器的值，然后模拟 HID 设备即可。
+
+10. 80MHz采样率数字示波器
+主要技术：程控增益放大，高速AD+FIFO，程控采样率
+
+三、硬
+1. 10MHz单电源宽带放大器
+
+2. 通带强噪声环境下的微弱信号放大器
+
+3. 心电仪的前端
+
+4. 数控线性电源，恒压，恒流
+
+5. 双路DCDC电源的并连均流
